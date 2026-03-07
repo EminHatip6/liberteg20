@@ -6,7 +6,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   setupSmoothScroll();
-  setupCountdown("June 24, 2026 09:00:00");
+  setupCountdown("June 23, 2026 09:00:00");
   setupSectionObserver();
   setupLanguageSwitcher();
   setupMobileMenu();
@@ -184,7 +184,7 @@ function setupLanguageSwitcher() {
       "section.about.title": "HAKKIMIZDA",
       "section.about.body":
         "Liberte G20 ekibi olarak bizler günümüz küresel problemlerine \"Group of Twenty\" yani \"Yirmililer Grubu\" ülkeleri perspektifinden çözüm bulmaya çalışan bir grup liseli genciz. Etkinliğimizi diğer G20 etkinliklerinden ayıran şey ise dört farklı dilde (Türkçe, İngilizce, Fransızca ve Almanca) Türkiye'nin en büyük bağımsız G20 Simülasyonu olmasıdır. Bizler bu etkinlikle katılımcılara uluslararası diplomasi, ekonomik ve stratejik planlama alanlarında eşsiz bir deneyim sunmayı hedefliyoruz.",
-      "section.about.date": "24 - 25 - 26 Haziran 2026",
+      "section.about.date": "23 - 24 - 25 Haziran 2026",
       "section.committees.title": "Komitelerimiz",
       "section.committees.body":
         "G20Zirve kapsamındaki ana komiteleri, çalışma alanlarını ve temel önceliklerini burada tanıtabilirsiniz.",
@@ -243,7 +243,7 @@ function setupLanguageSwitcher() {
       "section.about.title": "ABOUT US",
       "section.about.body":
         "As the Liberte G20 team, we are a group of high school students trying to find solutions to today's global problems from the perspective of the \"Group of Twenty\" countries. What distinguishes our event from other G20 events is that it is Turkey's largest independent G20 Simulation in four different languages (Turkish, English, French, and German). With this event, we aim to offer participants a unique experience in the fields of international diplomacy, economic and strategic planning.",
-      "section.about.date": "June 24 - 25 - 26, 2026",
+      "section.about.date": "June 23 - 24 - 25, 2026",
       "section.committees.title": "Our Committees",
       "section.committees.body": "Explore the main committees, study areas, and core priorities within the scope of G20Zirve.",
       "section.team.title": "OUR TEAM",
@@ -299,7 +299,7 @@ function setupLanguageSwitcher() {
       "hero.join_team": "Postulez en tant que membre !",
       "section.about.title": "À PROPOS DE NOUS",
       "section.about.body": "En tant qu'équipe Liberte G20, nous sommes un groupe de lycéens qui tentent de trouver des solutions aux problèmes mondiaux actuels du point de vue des pays du « Groupe des Vingt ». Ce qui distingue notre événement des autres événements du G20, c'est qu'il s'agit de la plus grande simulation indépendante du G20 en Turquie dans quatre langues différentes (turc, anglais, français et allemand). Avec cet événement, nous visons à offrir aux participants une expérience unique dans les domaines de la diplomatie internationale, de la planification économique et stratégique.",
-      "section.about.date": "24 - 25 - 26 Juin 2026",
+      "section.about.date": "23 - 24 - 25 Juin 2026",
       "section.committees.title": "Nos Comités",
       "section.committees.body": "Explorez les principaux comités, les domaines d'étude et les priorités fondamentales dans le cadre de G20Zirve.",
       "section.team.title": "NOTRE ÉQUIPE",
@@ -355,7 +355,7 @@ function setupLanguageSwitcher() {
       "hero.join_team": "Als Mitglied bewerben!",
       "section.about.title": "ÜBER UNS",
       "section.about.body": "Als Liberte G20-Team sind wir eine Gruppe von Gymnasiasten, die versuchen, Lösungen für die heutigen globalen Probleme aus der Perspektive der „Gruppe der Zwanzig“-Länder zu finden. Was unsere Veranstaltung von anderen G20-Veranstaltungen unterscheidet, ist, dass sie die größte unabhängige G20-Simulation in der Türkei in vier verschiedenen Sprachen (Türkisch, Englisch, Französisch und Deutsch) ist.",
-      "section.about.date": "24. - 25. - 26. Juni 2026",
+      "section.about.date": "23. - 24. - 25. Juni 2026",
       "section.committees.title": "Unsere Ausschüsse",
       "section.committees.body": "Entdecken Sie die Hauptausschüsse, Studienbereiche und Kernprioritäten im Rahmen von G20Zirve.",
       "section.team.title": "UNSER TEAM",
