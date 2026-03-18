@@ -204,7 +204,7 @@ function setupLanguageSwitcher() {
       "team.coordinator.footer": "Organizasyon ekibimiz adına, etkinlik günü sizlerle bir araya gelmeyi büyük bir heyecanla bekliyoruz.",
       "team.pr.name": "Irmak Küçükaslan & Elanur Cömert",
       "team.pr.title": "Halkla İlişkiler",
-      "team.pr.text": "Irmak Küçükaslan ve Elanur Cömert 2009 ve 2010 yılında doğmuş olup stratejik iletişim ve marka yönetimi alanında güçlü bir deneyime sahiptirler. G20 etkinliğimizin PR Başkanları olarak, organizasyonumuzun medya görünürlüğünden içerik stratejisine kadar tüm süreçleri titizlikle planlayarak etkinliğimizin prestijini güçlendirmektedirler.",
+      "team.pr.text": "Irmak Küçükaslan & Elanur Cömert 2009 ve 2010 yılında doğmuş olup stratejik iletişim ve marka yönetimi alanında güçlü bir deneyime sahiptirler. G20 etkinliğimizin PR Başkanları olarak, organizasyonumuzun medya görünürlüğünden içerik stratejisine kadar tüm süreçleri titizlikle planlayarak etkinliğimizin prestijini güçlendirmektedirler.",
       "team.gs.name": "Işıl Işıklı",
       "team.gs.title": "Genel Sekreter",
       "team.gs.text": "Organizasyonun idari ve operasyonel süreçlerini titizlikle yönetmektedir. Stratejik planlama, ekip koordinasyonu ve kriz yönetimi konularındaki yetkinliğiyle etkinliğin sorunsuz ilerlemesini sağlamaktadır.",
@@ -214,9 +214,9 @@ function setupLanguageSwitcher() {
       "team.admin.name": "Başak Begüm Ateş",
       "team.admin.title": "Admin Başkanı",
       "team.admin.text": "Başak Begüm Ateş, Liberte G20 etkinliğinde Admin Başkanı olarak görev yapmakta. Görevi, komite içindeki idari düzeni sağlayacak, delegelere destek olacak ve oturumların düzenli ilerlemesini sağlayacak adminlere başkanlık yaparak yardımcı olmaktır.",
-      "team.saha.name": "Baran Eren Bayraktutar ve Yaren Yılmaz",
+      "team.saha.name": "Baran Eren Bayraktutar & Yaren Yılmaz",
       "team.saha.title": "Saha Yönetimi",
-      "team.saha.text": "G20 etkinliğimizin saha yönetiminden sorumlu olan Baran Eren Bayraktutar ve Yaren Yılmaz, etkinlik alanındaki düzenin sağlanması, ekiplerin koordinasyonu ve program akışının sorunsuz ilerlemesinden sorumludur. Kriz anlarında hızlı karar alma becerisi ve güçlü iletişimi sayesinde ekibimize saha yönetiminde disiplinli ve güvenilir bir yapı kazandırmaktadır.",
+      "team.saha.text": "G20 etkinliğimizin saha yönetiminden sorumlu olan Baran Eren Bayraktutar & Yaren Yılmaz, etkinlik alanındaki düzenin sağlanması, ekiplerin koordinasyonu ve program akışının sorunsuz ilerlemesinden sorumludur. Kriz anlarında hızlı karar alma becerisi ve güçlü iletişimi sayesinde ekibimize saha yönetiminde disiplinli ve güvenilir bir yapı kazandırmaktadır.",
       "team.it.name": "Sare Nisan Danışmaz",
       "team.it.title": "Tasarım-IT Başkanı",
       "team.it.text": "2011 doğumlu Sare Nisan Danışmaz, 4 yıllık tasarım eğitimiyle G20 etkinliğimizin Tasarım-IT Başkanı olarak görev almaktadır. Sosyal medya ve tasarım süreçlerini yöneterek ekibimize yaratıcı uzmanlığıyla değer katmaktadır. Büyük bir Şebnem Ferah dinleyicisidir.",
@@ -229,9 +229,12 @@ function setupLanguageSwitcher() {
       "team.member9.name": "Kaan Yalçın",
       "team.member9.title": "Akademi Eş Başkanı",
       "team.member9.text": "Lise yıllarının başından itibaren akademik çalışmalara ilgi göstermiş ve çeşitli etkinliklerde görev almıştır. İktisat ve finansal alanlarda yoğunlaşmakta olup, bu doğrultuda çalışmalar yürütmektedir. Organizasyonumuzda akademik planlama ve içerik sürecinden sorumludur. Etkinliğin düzenli, anlaşılır ve katılımcılar açısından faydalı bir şekilde ilerlemesini hedeflemektedir.",
-      "team.member10.name": "Ahmet Tarık Kabasakal",
-      "team.member10.title": "Kriz Başkanı",
-      "team.member10.text": "Akademi ve kriz alanında 3 senelik derin bir tecrübeye sahiptir. G20 Etkinliğimizde kriz başkanı olarak akademik oturumları düzenlemek ve katılımcılarımıza hem akademik hem eğlenceli oturumlar düzenlemekle görevlidir. Kendisi 2008 doğumlu Mümtaz Turhan Sosyal Bilimler Lisesi 11. sınıf öğrencisidir."
+      "team.member10.text": "Akademi ve kriz alanında 3 senelik derin bir tecrübeye sahiptir. G20 Etkinliğimizde kriz başkanı olarak akademik oturumları düzenlemek ve katılımcılarımıza hem akademik hem eğlenceli oturumlar düzenlemekle görevlidir. Kendisi 2008 doğumlu Mümtaz Turhan Sosyal Bilimler Lisesi 11. sınıf öğrencisidir.",
+      "team.finance.name": "Hanife Gören",
+      "team.finance.text": "Hanife Gören, Liberte G20 etkinliğinde Finans Başkanı olarak görev yapmakta. Bu kapsamda sponsorluk süreçlerinin yürütülmesi, etkinlik bütçesinin planlanması ve gelir-gider dengesinin sağlanmasından sorumlu. Aynı zamanda tüm finansal süreçlerin düzenli, şeffaf ve sürdürülebilir bir şekilde ilerlemesini koordine ediyor.",
+      "team.finance2.name": "Ali Emre Aktün",
+      "team.finance2.title": "Finans Başkanı",
+      "team.finance2.text": "Ali Emre Aktün, Liberte G20 etkinliğinde Finans Başkanı olarak görev yapıyor. Görevi etkinliğin bütçesini planlamak, gelir–gider takibini yapmak ve finansal süreçlerin düzenli ve verimli şekilde yürütülmesini sağlamaktır."
     },
     en: {
       "nav.about": "About Us",
@@ -286,9 +289,12 @@ function setupLanguageSwitcher() {
       "team.member9.name": "Kaan Yalçın",
       "team.member9.title": "Academy Co-President",
       "team.member9.text": "Interested in academic studies since early high school years. Concentrates on economics and finance, responsible for academic planning and content process.",
-      "team.member10.name": "Ahmet Tarık Kabasakal",
-      "team.member10.title": "Crisis Head",
-      "team.member10.text": "Has 3 years of deep experience in academy and crisis management. Responsible for organizing academic and fun crisis sessions. Born in 2008, 11th-grade student at Mümtaz Turhan Social Sciences High School."
+      "team.member10.text": "Has 3 years of deep experience in academy and crisis management. Responsible for organizing academic and fun crisis sessions. Born in 2008, 11th-grade student at Mümtaz Turhan Social Sciences High School.",
+      "team.finance.name": "Hanife Gören",
+      "team.finance.text": "Hanife Gören serves as the Finance Head in the Liberte G20 event. In this context, she is responsible for managing sponsorship processes, planning the event budget, and ensuring the balance of income and expenses. She coordinates all financial processes to progress in an orderly and transparent manner.",
+      "team.finance2.name": "Ali Emre Aktün",
+      "team.finance2.title": "Finance Head",
+      "team.finance2.text": "Ali Emre Aktün serves as the Finance Head in the Liberte G20 event. His duty is to plan the event budget, track income and expenses, and ensure that financial processes are carried out in an orderly and efficient manner."
     },
     fr: {
       "nav.about": "À Propos",
@@ -342,9 +348,12 @@ function setupLanguageSwitcher() {
       "team.member9.name": "Kaan Yalçın",
       "team.member9.title": "Co-président de l'Académie",
       "team.member9.text": "Concentré sur l'économie et la finance, responsable de la planification académique et du contenu.",
-      "team.member10.name": "Ahmet Tarık Kabasakal",
-      "team.member10.title": "Chef de Crise",
-      "team.member10.text": "Possède 3 ans d'expérience approfondie dans l'académie et la gestion de crise. Responsable de l'organisation des sessions."
+      "team.member10.text": "Possède 3 ans d'expérience approfondie dans l'académie et la gestion de crise. Responsable de l'organisation des sessions.",
+      "team.finance.name": "Hanife Gören",
+      "team.finance.text": "Hanife Gören occupe le poste de responsable des finances lors de l'événement Liberte G20. Elle est chargée de la gestion des processus de parrainage, de la planification du budget et de l'équilibre des revenus et des dépenses.",
+      "team.finance2.name": "Ali Emre Aktün",
+      "team.finance2.title": "Responsable des Finances",
+      "team.finance2.text": "Ali Emre Aktün occupe le poste de responsable des finances de l'événement Liberte G20. Sa mission est de planifier le budget, de suivre les revenus et les dépenses, et d'assurer le bon fonctionnement des processus financiers."
     },
     de: {
       "nav.about": "Über Uns",
@@ -398,9 +407,13 @@ function setupLanguageSwitcher() {
       "team.member9.name": "Kaan Yalçın",
       "team.member9.title": "Akademie-Co-Präsident",
       "team.member9.text": "Konzentriert sich auf Wirtschaft und Finanzen, verantwortlich für die akademische Planung.",
-      "team.member10.name": "Ahmet Tarık Kabasakal",
-      "team.member10.title": "Krisenchef",
-      "team.member10.text": "Verfügt über 3 Jahre fundierte Erfahrung in Akademie ve Krisenmanagement. Verantwortlich für die Organisation der Sitzungen."
+      "team.member10.text": "Verfügt über 3 Jahre fundierte Erfahrung in Akademie ve Krisenmanagement. Verantwortlich für die Organisation der Sitzungen.",
+      "team.finance.name": "Hanife Gören",
+      "team.finance.title": "Finanzleiterin",
+      "team.finance.text": "Hanife Gören ist als Finanzleiterin beim Liberte G20-Event tätig. Sie ist für die Verwaltung von Sponsoringprozessen, die Planung des Veranstaltungsbudgets und den Ausgleich von Einnahmen und Ausgaben verantwortlich.",
+      "team.finance2.name": "Ali Emre Aktün",
+      "team.finance2.title": "Finanzleiter",
+      "team.finance2.text": "Ali Emre Aktün ist Finanzleiter der Liberte G20-Veranstaltung. Seine Aufgabe ist es, das Budget zu planen, Einnahmen und Ausgaben zu verfolgen und für einen reibungslosen Ablauf zu sorgen."
     },
   };
 

@@ -1456,18 +1456,23 @@ body {
   background-position: center 20%;
 }
 
-/* Specific Zoom for Kriz Başkanı (10th box) - CENTERED */
-.sub-coordinators-grid .sub-coordinator-box:nth-child(10) {
-  grid-column: 2;
-  /* Center the last member in a 3-column grid */
-}
-
+/* 10. Ahmet Tarık Kabasakal */
 .sub-coordinators-grid .sub-coordinator-box:nth-child(10) .sub-coordinator-media {
   background-size: 105%;
   background-position: center 5%;
 }
 
+/* 11. Hanife Gören */
+.sub-coordinators-grid .sub-coordinator-box:nth-child(11) .sub-coordinator-media {
+  background-size: 110%;
+  background-position: 10% 50%;
+}
 
+/* 12. Ali Emre Aktün */
+.sub-coordinators-grid .sub-coordinator-box:nth-child(12) .sub-coordinator-media {
+  background-size: 150%;
+  background-position: 40% 40%;
+}
 
 .sub-coordinator-box .team-content {
   padding: 1.25rem !important;
