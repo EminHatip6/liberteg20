@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="Resimler/Adsız tasarım (4).png" sizes="192x192" />
+  <title>Liberte G20</title>
+
+  <!-- Google Font: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <!-- FontAwesome for Social Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</head>
+
+<body>
+  <!-- Fixed Navbar -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="brand" aria-label="Go to top">
+        <img src="Resimler/Logo.png" alt="Liberte G20 Logo" class="brand-logo" />
+        <span class="brand-name">Liberte G20</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+
+        <a href="#about" class="nav-link" data-nav="about" data-i18n="nav.about">
+          Hakkımızda
+        </a>
+        <a href="#team" class="nav-link" data-nav="team" data-i18n="nav.team">
+          Ekibimiz
+        </a>
+        <a href="#footer" class="nav-link" data-nav="contact" data-i18n="nav.contact">
+          İletişim
+        </a>
+      </nav>
+
+      <!-- Language selector -->
+      <div class="language-switcher" aria-label="Language selector">
+        <button class="lang-toggle" type="button" aria-haspopup="listbox" aria-expanded="false">
+          <span class="lang-current" data-current-lang>Türkçe</span>
+          <span class="lang-caret"></span>
+        </button>
+        <ul class="lang-menu" role="listbox">
+          <li class="lang-option" role="option" data-lang="tr" aria-selected="true">
+            Türkçe (TR)
+          </li>
+          <li class="lang-option" role="option" data-lang="en">English (EN)</li>
+          <li class="lang-option" role="option" data-lang="fr">Français (FR)</li>
+          <li class="lang-option" role="option" data-lang="de">Deutsch (DE)</li>
+        </ul>
+      </div>
+
+      <!-- Mobile Menu Button (Hamburger) -->
+      <button class="mobile-menu-btn" aria-label="Open Menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav">
+      <nav class="mobile-nav-links">
+        <a href="#about" class="mobile-nav-link" data-i18n="nav.about">Hakkımızda</a>
+        <a href="#team" class="mobile-nav-link" data-i18n="nav.team">Ekibimiz</a>
+        <a href="#footer" class="mobile-nav-link" data-i18n="nav.contact">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero" data-section="hero">
+      <div class="hero-image-vessel">
+        <img src="Resimler/ab81448a-d4ba-43e5-8c6c-402e64b5df54.png" alt="World Map Background" class="hero-backdrop">
+      </div>
+      <div class="hero-card">
+        <div class="hero-content">
+          <h1 id="hero-main" class="hero-title hero-line" data-i18n="hero.title">Hoşgeldiniz</h1>
+
+          <!-- Countdown Timer -->
+          <div class="countdown-container hero-line" aria-label="Countdown to the summit">
+            <div class="countdown">
+              <div class="time-box" data-unit="days">
+                <span class="time-value" id="days">100</span>
+                <span class="time-label" data-i18n="countdown.days">Gün</span>
+              </div>
+              <div class="time-box" data-unit="hours">
+                <span class="time-value" id="hours">00</span>
+                <span class="time-label" data-i18n="countdown.hours">Saat</span>
+              </div>
+              <div class="time-box" data-unit="minutes">
+                <span class="time-value" id="minutes">00</span>
+                <span class="time-label" data-i18n="countdown.minutes">Dakika</span>
+              </div>
+              <div class="time-box" data-unit="seconds">
+                <span class="time-value" id="seconds">00</span>
+                <span class="time-label" data-i18n="countdown.seconds">Saniye</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-actions hero-line">
+            <span class="hero-btn join-team-btn disabled" data-i18n="hero.join_team">Yoğun ilginiz için teşekkür ederiz.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about" class="content-section alt js-section">
+      <div class="section-inner">
+        <div class="about-header-box">
+          <h2 class="section-title main-about-title" data-i18n="section.about.title">HAKKIMIZDA</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="about-content">
+          <p class="about-text" data-i18n="section.about.body">
+            Liberte G20 ekibi olarak bizler günümüz küresel problemlerine "Group of Twenty" yani "Yirmililer Grubu"
+            ülkeleri perspektifinden çözüm bulmaya çalışan bir grup liseli genciz. Etkinliğimizi diğer G20
+            etkinliklerinden ayıran şey ise dört farklı dilde (Türkçe, İngilizce, Fransızca ve Almanca) Türkiye'nin en
+            büyük bağımsız G20 Simülasyonu olmasıdır. Bizler bu etkinlikle katılımcılara uluslararası diplomasi,
+            ekonomik ve stratejik planlama alanlarında eşsiz bir deneyim sunmayı hedefliyoruz.
+          </p>
+        </div>
+
+        <!-- Now a SEPARATE block outside the main content box -->
+        <div class="about-info-container js-section">
+          <div class="about-info-date">
+            <i class="far fa-calendar-alt"></i>
+            <span data-i18n="section.about.date">6 - 7 - 8 Temmuz 2026</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="team" class="content-section alt js-section">
+      <div class="section-inner">
+        <div class="team-header-box">
+          <h2 class="section-title main-team-title" data-i18n="section.team.title">EKİBİMİZ</h2>
+          <div class="title-line"></div>
+        </div>
+
+        <!-- General Coordinator Section -->
+        <div class="coordinator-box team-card lead-card js-section js-coordinator">
+          <div class="coordinator-media" style="background-image: url('Resimler/ahged.jpeg');"></div>
+          <div class="team-content">
+            <h3 class="team-name" data-i18n="team.coordinator.name">Ahmed Faruk Kabar</h3>
+            <h4 class="team-role" data-i18n="team.coordinator.title">Genel Koordinatör</h4>
+            <div class="team-bio">
+              <p data-i18n="team.coordinator.text">
+                Liberte G20 etkinliğimizin vizyoner mimarı Ahmed Faruk Kabar, sahip olduğu geniş deneyim ve birikimiyle
+                katılımcılarımıza eşsiz bir tecrübe sunmayı hedeflemektedir. 17 yaşında olan ve literatüre, özellikle de
+                George Orwell’ın kült eseri 1984'e duyduğu ilgiyle tanınan Ahmed, entelektüel derinliğini organizasyonun
+                her aşamasına yansıtmaktadır.
+              </p>
+              <div class="quote-box">
+                <p data-i18n="team.coordinator.quote_intro">
+                  Değerli katılımcılarımıza bir mesajı olan Ahmed Faruk Kabar, etkinliğin temel felsefesini şu sözlerle
+                  özetliyor:
+                </p>
+                <blockquote data-i18n="team.coordinator.quote">
+                  “Liberte G20’nin asıl mimarları, siz değerli katılımcıların özgün fikirleridir. Bizim önceliğimiz, bu
+                  fikirlerin en verimli şekilde gün yüzüne çıkabileceği profesyonel zemini hazırlamaktır.”
+                </blockquote>
+              </div>
+              <p data-i18n="team.coordinator.footer">
+                Organizasyon ekibimiz adına, etkinlik günü sizlerle bir araya gelmeyi büyük bir heyecanla bekliyoruz.
+              </p>
+            </div>
+          </div>
+          <div class="team-instagram-container">
+            <a href="https://www.instagram.com/ahmeddkabar/" target="_blank" class="team-instagram">
+              <i class="fab fa-instagram"></i>
+              <span>ahmeddkabar</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Sub-Coordinators Grid -->
+        <div class="sub-coordinators-grid">
+
+
+          <!-- 2. PR Presidents -->
+          <div class="sub-coordinator-box team-card js-section">
+            <div class="sub-coordinator-media" style="background-image: url('Resimler/prbaskanları.jpeg');"></div>
+            <div class="team-content">
+              <h3 class="team-name" data-i18n="team.pr.name">Irmak Küçükaslan & Elanur Cömert</h3>
+              <h4 class="team-role" data-i18n="team.pr.title">Halkla İlişkiler</h4>
+              <div class="team-bio">
+                <p data-i18n="team.pr.text">Irmak Küçükaslan & Elanur Cömert 2009 ve 2010 yılında doğmuş olup stratejik
+                  Stratejik planlama,
+                  ekip koordinasyonu ve kriz yönetimi konularındaki yetkinliğiyle etkinliğin sorunsuz ilerlemesini
+                  sağlamaktadır. Disiplinli çalışma anlayışı ve çözüm odaklı yaklaşımıyla organizasyonun temel yapı
+                  taşlarından biridir.</p>
+              </div>
+            </div>
+            <div class="team-instagram-container">
+              <a href="https://www.instagram.com/balimhelios/" target="_blank" class="team-instagram">
+                <i class="fab fa-instagram"></i>
+                <span>balimhelios</span>
+              </a>
+              <a href="https://www.instagram.com/elov2y/" target="_blank" class="team-instagram">
+                <i class="fab fa-instagram"></i>
+                <span>elov2y</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 3. Human Resources (Moved from 6th) -->
+          <div class="sub-coordinator-box team-card js-section">
+            <div class="sub-coordinator-media" style="background-image: url('Resimler/insankaynakları.jpeg');">
+            </div>
+            <div class="team-content">
+              <h3 class="team-name" data-i18n="team.hr.name">Nisa Nur Zor</h3>
+              <h4 class="team-role" data-i18n="team.hr.title">İnsan Kaynakları</h4>
+              <div class="team-bio">
+                <p data-i18n="team.hr.text">İnsan ilişkilerine önem veren ve ekip çalışmasını ön planda tutan bir
+                  anlayışla görev
+                  yapmaktadır. Organizasyon sürecinde adil, düzenli ve uyumlu bir çalışma ortamı oluşturmayı
+                  hedeflemektedir. Ekip içi iletişimin sağlıklı ilerlemesi ve görev dağılımının dengeli yürütülmesi için
+                  sorumluluk almaktadır.</p>
+              </div>
+            </div>
+            <div class="team-instagram-container">
+              <a href="https://www.instagram.com/nisa_nzor/" target="_blank" class="team-instagram">
+                <i class="fab fa-instagram"></i>
+                <span>nisa_nzor</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 4. Admin President -->
+          <div class="sub-coordinator-box team-card js-section">
+            <div class="sub-coordinator-media" style="background-image: url('Resimler/başak.jpeg');"></div>
+            <div class="team-content">
+              <h3 class="team-name" data-i18n="team.admin.name">Başak Begüm Ateş</h3>
+              <h4 class="team-role" data-i18n="team.admin.title">Admin Başkanı</h4>
+              <div class="team-bio">
+                <p data-i18n="team.admin.text">Başak Begüm Ateş, Liberte G20 etkinliğinde Admin Başkanı olarak görev
+                  yapmakta. Görevi, komite içindeki idari düzeni sağlayacak, delegelere destek olacak ve oturumların
+                  düzenli ilerlemesini sağlayacak adminlere başkanlık yaparak yardımcı olmaktır.</p>
+              </div>
+            </div>
+            <div class="team-instagram-container">
+              <a href="https://www.instagram.com/basak_begm/" target="_blank" class="team-instagram">
+                <i class="fab fa-instagram"></i>
+                <span>basak_begm</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 5. Field Operations -->
+          <div class="sub-coordinator-box team-card js-section">
+            <div class="sub-coordinator-media"
+              style="background-image: url('Resimler/Baran\ Eren\ Bayraktutar\ ve\ Yaren\ Yılmaz.jpeg');"></div>
+            <div class="team-content">
+              <h3 class="team-name" data-i18n="team.saha.name">Baran Eren Bayraktutar & Yaren Yılmaz</h3>
+              <h4 class="team-role" data-i18n="team.saha.title">Saha Yönetimi</h4>
+              <div class="team-bio">
+                <p data-i18n="team.saha.text">G20 etkinliğimizin saha yönetiminden sorumlu olan Baran Eren Bayraktutar &
+                  Yaren Yılmaz, etkinlik
+                  alanındaki düzenin sağlanması, ekiplerin koordinasyonu ve program akışının sorunsuz ilerlemesinden
+                  sorumludur. Kriz anlarında hızlı karar alma becerisi ve güçlü iletişimi sayesinde ekibimize saha
+                  yönetiminde disiplinli ve güvenilir bir yapı kazandırmaktadır.</p>
+              </div>
+            </div>
+            <div class="team-instagram-container">
+              <a href="https://www.instagram.com/erenbbyrkttr/" target="_blank" class="team-instagram">
+                <i class="fab fa-instagram"></i>
+                <span>erenbbyrkttr</span>
+              </a>
+              <a href="https://www.instagram.com/yarenyl1maz/" target="_blank" class="team-instagram">
+                <i class="fab fa-instagram"></i>
+                <span>yarenyl1maz</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 6. IT President (Moved from 3rd) -->
+          <div class="sub-coordinator-box team-card js-section">
+            <div class="sub-coordinator-media" style="background-image: url('Resimler/IT baskan.jpeg');"></div>
+            <div class="team-content">
+              <h3 class="team-name" data-i18n="team.it.name">Sare Nisan Danışmaz</h3>
+              <h4 class="team-role" data-i18n="team.it.title">Tasarım-IT Başkanı</h4>
+              <div class="team-bio">
+                <p data-i18n="team.it.text">2011 doğumlu Sare Nisan Danışmaz, 4 yıllık tasarım eğitimiyle G20
+                  etkinliğimizin Tasarım-IT Başkanı
+                  olarak görev almaktadır. Sosyal medya ve tasarım süreçlerini yöneterek ekibimize yaratıcı uzmanlığıyla
+                  değer katmaktadır. Büyük bir Şebnem Ferah dinleyicisidir.</p>
+              </div>
+            </div>
+            <div class="team-instagram-container">
+              <a href="https://www.instagram.com/sarenisan/" target="_blank" class="team-instagram">
+                <i class="fab fa-instagram"></i>
+                <span>sarenisan</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 7. Security President -->
+          <div class="sub-coordinator-box team-card js-section">
+            <div class="sub-coordinator-media" style="background-image: url('Resimler/emin.jpeg');"></div>
+            <div class="team-content">
+              <h3 class="team-name" data-i18n="team.security.name">Mehmet Emin Özcan</h3>
+              <h4 class="team-role" data-i18n="team.security.title">Güvenlik Başkanı</h4>
+              <div class="team-bio">
+                <p data-i18n="team.security.text">Mehmet Emin Özcan, güvenlik stratejileri ve saha operasyonları
+                  alanında derin bir tecrübeye sahiptir. G20 Güvenlik Başkanı olarak, etkinlik boyunca üst düzey
+                  güvenlik protokollerinin uygulanmasını ve tüm katılımcıların emniyetini sağlamaktadır.</p>
+              </div>
+            </div>
+            <div class="team-instagram-container">
+              <a href="https://www.instagram.com/mehmteminozcan/" target="_blank" class="team-instagram">
+                <i class="fab fa-instagram"></i>
+                <span>mehmteminozcan</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 8. Academy President (Zeynep) -->
+          <div class="sub-coordinator-box team-card js-section">
+            <div class="sub-coordinator-media" style="background-image: url('Resimler/zeynep.jpeg');"></div>
+            <div class="team-content">
+              <h3 class="team-name" data-i18n="team.member8.name">Zeynep Uyanık</h3>
+              <h4 class="team-role" data-i18n="team.member8.title">Akademi Başkanı</h4>
+              <div class="team-bio">
+                <p data-i18n="team.member8.text">Akademi alanında lise hayatının başından beri etkin rol
+                  almış olup fazlaca deneyime sahiptir. Asıl alanı psikiyatri ve nörobilimdir. Etkinliğimizin akademik
+                  düzeninden ve kalitesinden sorumludur. Sizlere kaliteli bir deneyim sunmayı dört gözle bekliyor.</p>
+              </div>
+            </div>
+            <div class="team-instagram-container">
+              <a href="https://www.instagram.com/zeyynepuyaniik/" target="_blank" class="team-instagram">
+                <i class="fab fa-instagram"></i>
+                <span>zeyynepuyaniik</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 9. Academy President (Ahmet Mirza) -->
+          <div class="sub-coordinator-box team-card js-section">
+            <div class="sub-coordinator-media" style="background-image: url('Resimler/Alimirza.jpeg');"></div>
+            <div class="team-content">
+              <h3 class="team-name" data-i18n="team.member9.name">Kaan Yalçın</h3>
+              <h4 class="team-role" data-i18n="team.member9.title">Akademi Eş Başkanı</h4>
+              <div class="team-bio">
+                <p data-i18n="team.member9.text">Lise yıllarının başından itibaren akademik çalışmalara ilgi göstermiş
+                  ve çeşitli etkinliklerde görev almıştır. İktisat ve finansal alanlarda yoğunlaşmakta olup, bu
+                  doğrultuda çalışmalar yürütmektedir. Organizasyonumuzda akademik planlama ve içerik sürecinden
+                  sorumludur.</p>
+              </div>
+            </div>
+            <div class="team-instagram-container">
+              <a href="https://www.instagram.com/kaanyalcinn23/" target="_blank" class="team-instagram">
+                <i class="fab fa-instagram"></i>
+                <span>kaanyalcinn23</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 10. Crisis Head -->
+          <div class="sub-coordinator-box team-card js-section">
+            <div class="sub-coordinator-media" style="background-image: url('Resimler/kabasakl.jpeg');"></div>
+            <div class="team-content">
+              <h3 class="team-name" data-i18n="team.member10.name">Ahmet Tarık Kabasakal</h3>
+              <h4 class="team-role" data-i18n="team.member10.title">Kriz Başkanı</h4>
+              <div class="team-bio">
+                <p data-i18n="team.member10.text">Akademi ve kriz alanında 3 senelik derin bir tecrübeye sahiptir. G20
+                  Etkinliğimizde kriz başkanı olarak akademik oturumları düzenlemek ve katılımcılarımıza hem akademik
+                  hem
+                  eğlenceli oturumlar düzenlemekle görevlidir.</p>
+              </div>
+          </div>
+          <div class="team-instagram-container">
+            <a href="https://www.instagram.com/ahmttrktc/" target="_blank" class="team-instagram">
+              <i class="fab fa-instagram"></i>
+              <span>ahmttrktc</span>
+            </a>
+          </div>
+        </div>
+
+          <!-- 11. Finance Head -->
+          <div class="sub-coordinator-box team-card js-section">
+            <div class="sub-coordinator-media" style="background-image: url('Resimler/finanasbaskan.jpeg');"></div>
+            <div class="team-content">
+              <h3 class="team-name" data-i18n="team.finance.name">Hanife Gören</h3>
+              <h4 class="team-role" data-i18n="team.finance.title">Finans Başkanı</h4>
+              <div class="team-bio">
+                <p data-i18n="team.finance.text">Hanife Gören, Liberte G20 etkinliğinde Finans Başkanı olarak görev
+                  yapmakta. Bu kapsamda sponsorluk süreçlerinin yürütülmesi, etkinlik bütçesinin planlanması ve
+                  gelir-gider dengesinin sağlanmasından sorumlu.</p>
+              </div>
+          </div>
+          <div class="team-instagram-container">
+            <a href="https://www.instagram.com/ezgi._97/" target="_blank" class="team-instagram">
+              <i class="fab fa-instagram"></i>
+              <span>ezgi._97</span>
+            </a>
+          </div>
+        </div>
+
+
+          <!-- 12. Finance Head 2 -->
+          <div class="sub-coordinator-box team-card js-section">
+            <div class="sub-coordinator-media" style="background-image: url('Resimler/finanasbaskanı2.jpeg');"></div>
+            <div class="team-content">
+              <h3 class="team-name" data-i18n="team.finance2.name">Ali Emre Aktün</h3>
+              <h4 class="team-role" data-i18n="team.finance2.title">Finans Başkanı</h4>
+              <div class="team-bio">
+                <p data-i18n="team.finance2.text">Ali Emre Aktün, Liberte G20 etkinliğinde Finans Başkanı olarak görev
+                  yapıyor. Görevi etkinliğin bütçesini planlamak, gelir–gider takibini yapmak ve finansal süreçlerin
+                  düzenli ve verimli şekilde yürütülmesini sağlamaktır.</p>
+              </div>
+          </div>
+          <div class="team-instagram-container">
+            <a href="https://www.instagram.com/alemrealemre/" target="_blank" class="team-instagram">
+              <i class="fab fa-instagram"></i>
+              <span>alemrealemre</span>
+            </a>
+          </div>
+        </div>
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="footer-inner">
+      <!-- Socials now on the LEFT -->
+      <div class="footer-left-socials">
+        <div class="footer-social-column">
+          <a href="https://www.instagram.com/liberteg20/" target="_blank" class="social-link instagram">
+            <i class="fab fa-instagram"></i>
+            <span>liberteg20</span>
+          </a>
+          <a href="https://mail.google.com/" target="_blank" class="social-link gmail">
+            <i class="far fa-envelope"></i>
+            <span>liberteg20yk@gmail.com</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer-center">
+        <p>© <span id="year"></span> LiberteG20.</p>
+      </div>
+      <!-- Signature now on the RIGHT -->
+      <div class="footer-right-signature">
+        <a href="https://www.instagram.com/eminnhatipoglu/" target="_blank" rel="noopener noreferrer"
+          class="signature-link">
+          <span class="signature-by">by</span>
+          <span class="signature-handle">
+            <i class="fab fa-instagram"></i>
+            <span>eminnhatipoglu</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
