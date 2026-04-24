@@ -2120,3 +2120,256 @@ body {
     font-size: 0.95rem;
   }
 }
+
+/* --- Maintenance Overlay Styles --- */
+.maintenance-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, #0f172a 0%, #020617 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  text-align: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+/* Background Animation for Overlay */
+.maintenance-overlay::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  height: 200%;
+  background: repeating-radial-gradient(circle at center,
+      transparent 0,
+      transparent 100px,
+      rgba(6, 182, 212, 0.05) 101px,
+      rgba(6, 182, 212, 0.05) 102px);
+  transform: translate(-50%, -50%);
+  animation: maintenance-bg-pulse 20s linear infinite;
+  z-index: 0;
+}
+
+@keyframes maintenance-bg-pulse {
+  0% { transform: translate(-50%, -50%) rotate(0deg) scale(1); }
+  50% { transform: translate(-50%, -50%) rotate(180deg) scale(1.1); }
+  100% { transform: translate(-50%, -50%) rotate(360deg) scale(1); }
+}
+
+.maintenance-content {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  padding: 4rem 2rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  animation: maintenance-fade-in 1s ease-out;
+}
+
+@keyframes maintenance-fade-in {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.maintenance-logo img {
+  height: 180px; /* Increased from 120px */
+  width: auto;
+  margin-bottom: 3rem;
+  filter: drop-shadow(0 0 25px rgba(6, 182, 212, 0.5));
+  animation: logo-premium-float 6s ease-in-out infinite;
+}
+
+@keyframes logo-premium-float {
+  0%, 100% { transform: translateY(0) scale(1); filter: drop-shadow(0 0 25px rgba(6, 182, 212, 0.5)); }
+  50% { transform: translateY(-15px) scale(1.05); filter: drop-shadow(0 0 40px rgba(6, 182, 212, 0.7)); }
+}
+
+.maintenance-animation {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Premium Scanning Orbit Animation */
+.loader {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader span {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+/* Outer Pulsing Ring */
+.loader span:nth-child(1) {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(6, 182, 212, 0.3);
+  border-top-color: #06b6d4;
+  animation: maintenance-spin 2s linear infinite;
+}
+
+/* Middle Scanning Ring */
+.loader span:nth-child(2) {
+  width: 70%;
+  height: 70%;
+  border: 2px solid rgba(239, 68, 68, 0.2);
+  border-bottom-color: #ef4444;
+  animation: maintenance-spin-reverse 3s linear infinite;
+}
+
+/* Inner Pulsing Core */
+.loader span:nth-child(3) {
+  width: 30%;
+  height: 30%;
+  background: radial-gradient(circle, #facc15 0%, transparent 70%);
+  box-shadow: 0 0 20px #facc15;
+  animation: maintenance-core-pulse 1.5s ease-in-out infinite;
+  border: none;
+}
+
+/* Orbital Dot */
+.loader span:nth-child(4) {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  box-shadow: 0 0 10px #fff;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: maintenance-orbit 4s linear infinite;
+  border: none;
+}
+
+@keyframes maintenance-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes maintenance-spin-reverse {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes maintenance-core-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.3); opacity: 1; }
+}
+
+@keyframes maintenance-orbit {
+  from { transform: rotate(0deg) translateX(75px) rotate(0deg); }
+  to { transform: rotate(360deg) translateX(75px) rotate(-360deg); }
+}
+
+
+.maintenance-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #fff 30%, #94a3b8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.02em;
+}
+
+.maintenance-content p {
+  font-size: 1.1rem;
+  color: #94a3b8;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+
+.maintenance-socials {
+  display: flex;
+  justify-content: center;
+}
+
+.maintenance-socials .social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.maintenance-socials .social-link:hover {
+  background: rgba(6, 182, 212, 0.15);
+  border-color: #06b6d4;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(6, 182, 212, 0.2);
+}
+
+.maintenance-socials i {
+  font-size: 1.25rem;
+  color: #06b6d4;
+}
+
+/* Hide rest of the content when maintenance is active */
+body.maintenance-active {
+  overflow: hidden;
+}
+
+body.maintenance-active > *:not(#maintenance-overlay) {
+  display: none !important;
+}
+
+/* --- Mobile Fixes for Maintenance --- */
+@media (max-width: 768px) {
+  .maintenance-content {
+    padding: 3rem 1.5rem;
+    width: 92%;
+    border-radius: 30px;
+  }
+
+  .maintenance-logo img {
+    height: 120px; /* Scaled down for mobile */
+    margin-bottom: 2rem;
+  }
+
+  .maintenance-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .maintenance-content p {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  .loader {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Adjust orbit for smaller radius on mobile */
+  .loader span:nth-child(4) {
+    animation: maintenance-orbit-mobile 4s linear infinite;
+  }
+}
+
+@keyframes maintenance-orbit-mobile {
+  from { transform: rotate(0deg) translateX(50px) rotate(0deg); }
+  to { transform: rotate(360deg) translateX(50px) rotate(-360deg); }
+}

@@ -12,6 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
   setupMobileMenu();
   setCurrentYear();
   initInteractiveBackground(); // Interactive background for About and Team
+  
+  // Activate Maintenance Mode
+  document.body.classList.add("maintenance-active");
 });
 
 /**
@@ -235,7 +238,10 @@ function setupLanguageSwitcher() {
       "team.finance.text": "Hanife Gören, Liberte G20 etkinliğinde Finans Başkanı olarak görev yapmakta. Bu kapsamda sponsorluk süreçlerinin yürütülmesi, etkinlik bütçesinin planlanması ve gelir-gider dengesinin sağlanmasından sorumlu. Aynı zamanda tüm finansal süreçlerin düzenli, şeffaf ve sürdürülebilir bir şekilde ilerlemesini koordine ediyor.",
       "team.finance2.name": "Ali Emre Aktün",
       "team.finance2.title": "Finans Başkanı",
-      "team.finance2.text": "Ali Emre Aktün, Liberte G20 etkinliğinde Finans Başkanı olarak görev yapıyor. Görevi etkinliğin bütçesini planlamak, gelir–gider takibini yapmak ve finansal süreçlerin düzenli ve verimli şekilde yürütülmesini sağlamaktır."
+      "team.finance2.title": "Finans Başkanı",
+      "team.finance2.text": "Ali Emre Aktün, Liberte G20 etkinliğinde Finans Başkanı olarak görev yapıyor. Görevi etkinliğin bütçesini planlamak, gelir–gider takibini yapmak ve finansal süreçlerin düzenli ve verimli şekilde yürütülmesini sağlamaktır.",
+      "maintenance.title": "Bakım Molası",
+      "maintenance.text": "Sizlere daha iyi bir deneyim sunmak için kısa bir ara verdik. Çok yakında buradayız!"
     },
     en: {
       "nav.about": "About Us",
@@ -296,7 +302,10 @@ function setupLanguageSwitcher() {
       "team.finance.text": "Hanife Gören serves as the Finance Head in the Liberte G20 event. In this context, she is responsible for managing sponsorship processes, planning the event budget, and ensuring the balance of income and expenses. She coordinates all financial processes to progress in an orderly and transparent manner.",
       "team.finance2.name": "Ali Emre Aktün",
       "team.finance2.title": "Finance Head",
-      "team.finance2.text": "Ali Emre Aktün serves as the Finance Head in the Liberte G20 event. His duty is to plan the event budget, track income and expenses, and ensure that financial processes are carried out in an orderly and efficient manner."
+      "team.finance2.title": "Finance Head",
+      "team.finance2.text": "Ali Emre Aktün serves as the Finance Head in the Liberte G20 event. His duty is to plan the event budget, track income and expenses, and ensure that financial processes are carried out in an orderly and efficient manner.",
+      "maintenance.title": "Maintenance Break",
+      "maintenance.text": "We've taken a short break to provide you with a better experience. We'll be back very soon!"
     },
     fr: {
       "nav.about": "À Propos",
@@ -355,7 +364,10 @@ function setupLanguageSwitcher() {
       "team.finance.text": "Hanife Gören occupe le poste de responsable des finances lors de l'événement Liberte G20. Elle est chargée de la gestion des processus de parrainage, de la planification du budget et de l'équilibre des revenus et des dépenses.",
       "team.finance2.name": "Ali Emre Aktün",
       "team.finance2.title": "Responsable des Finances",
-      "team.finance2.text": "Ali Emre Aktün occupe le poste de responsable des finances de l'événement Liberte G20. Sa mission est de planifier le budget, de suivre les revenus et les dépenses, et d'assurer le bon fonctionnement des processus financiers."
+      "team.finance2.title": "Responsable des Finances",
+      "team.finance2.text": "Ali Emre Aktün occupe le poste de responsable des finances de l'événement Liberte G20. Sa mission est de planifier le budget, de suivre les revenus et les dépenses, et d'assurer le bon fonctionnement des processus financiers.",
+      "maintenance.title": "Pause de Maintenance",
+      "maintenance.text": "Nous avons pris une courte pause pour vous offrir une meilleure expérience. Nous serons de retour très bientôt !"
     },
     de: {
       "nav.about": "Über Uns",
@@ -415,7 +427,10 @@ function setupLanguageSwitcher() {
       "team.finance.text": "Hanife Gören ist als Finanzleiterin beim Liberte G20-Event tätig. Sie ist für die Verwaltung von Sponsoringprozessen, die Planung des Veranstaltungsbudgets und den Ausgleich von Einnahmen und Ausgaben verantwortlich.",
       "team.finance2.name": "Ali Emre Aktün",
       "team.finance2.title": "Finanzleiter",
-      "team.finance2.text": "Ali Emre Aktün ist Finanzleiter der Liberte G20-Veranstaltung. Seine Aufgabe ist es, das Budget zu planen, Einnahmen und Ausgaben zu verfolgen und für einen reibungslosen Ablauf zu sorgen."
+      "team.finance2.title": "Finanzleiter",
+      "team.finance2.text": "Ali Emre Aktün ist Finanzleiter der Liberte G20-Veranstaltung. Seine Aufgabe ist es, das Budget zu planen, Einnahmen und Ausgaben zu verfolgen und für einen reibungslosen Ablauf zu sorgen.",
+      "maintenance.title": "Wartungspause",
+      "maintenance.text": "Wir haben eine kurze Pause eingelegt, um Ihnen ein besseres Erlebnis zu bieten. Wir sind bald wieder da!"
     },
   };
 
