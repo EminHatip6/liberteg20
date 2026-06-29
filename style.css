@@ -436,8 +436,7 @@ body {
 .hero-title {
   display: inline-block;
   /* Ensure better hover interaction */
-  font-size: clamp(2rem, 6vw, 4rem);
-  /* Reduced from 5rem max */
+  font-size: clamp(3rem, 10vw, 6.5rem);
   font-weight: 800;
   margin-bottom: 3rem;
   /* Reduced from 4rem */
@@ -477,7 +476,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
-  width: 130px;
+  width: 180px;
   height: 4px;
   border-radius: 999px;
   background: linear-gradient(90deg, var(--primary), var(--accent));
